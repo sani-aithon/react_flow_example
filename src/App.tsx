@@ -71,7 +71,7 @@ function FlowCanvas() {
     []
   );
 
-  const onNodeClick: NodeMouseHandler = useCallback(
+  const onNodeClick: NodeMouseHandler = useCallback( 
     (_, node) => {
       handleOpenDrawer(node.id);
     },
